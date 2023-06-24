@@ -1,0 +1,395 @@
+body{
+    font-family: 'Open Sans';
+}
+
+h1{
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 30;
+    text-align: center;
+    margin-top: 60px;
+}
+
+p{
+    text-align: center;
+}
+
+header{
+    position: fixed;
+    top: 0px;
+    height: 45px;
+    width: 100%;
+    background: white;
+    padding-bottom: 10px;
+}
+
+header p{
+    display: inline-block;
+    position: absolute;
+    left: 150px;
+     
+}
+
+header span{
+    color: rgb(119,91,45);
+}
+
+header ul{
+    display: inline-block;
+    text-align: right;
+    position: absolute;
+    right: 150px;
+}
+
+header li{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+header a{
+    text-decoration: none;
+    color: grey;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+
+header a:hover{
+    color: black;
+}
+
+#capa{
+    margin-top: 45px;
+}
+
+#capa{
+    background-image: url(Imagens/Premium%20Vector%20_%20Cute%20petshop%20logo%20with%20cat%20and%20dog.jfif);
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#capa div{
+    border: 2px solid white;
+    height: 250px;
+    width: 50%;
+    background: rgba(119, 91, 45, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#capa div h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#capa div p{
+    font-size: 25px;
+}
+
+#quartos{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#quartos a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+.quarto{
+    margin: 0px 20px;
+}
+
+.quarto img{
+    max-height: 200px;
+}
+
+.quarto div{
+    border: 1px solid #775b2d;
+}
+
+#quartos a p{
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+#quartos a:hover p{
+    font-weight: bold;
+}
+
+iframe{
+    width: 100%;
+    height: 350px;
+}
+
+nav img{
+    height: 160;
+    width: 130px;
+}
+
+#sobre-container-maior{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.sobre-container-medio{
+    width: 500px;
+    margin: 20px 30px;
+    height: 160px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sobre-container-menor p{
+    text-align: left;
+    margin-right: 15px;
+}
+
+footer{
+    background: #775b2d;
+    display: flex;
+    flex-direction: column;
+}
+
+#footer-container-maior{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px 90px;
+}
+
+.footer-container-menor{
+    width: 200;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-container-menor img{
+    height: 35px
+}
+
+.footer-container-menor p{
+    display: inline-block;
+    color: white;  
+}
+
+footer #hr{
+    border: 1px solid #442007;
+    margin: 0px 120px;
+}
+
+footer #footer-paragrafo{
+    color: white;
+}
+
+#capa-quartos{
+    width: 100%;
+    height: 200px;
+    background: url(pousada/assets/img-fundo.jpg);
+}
+
+.quartos-main h2{
+    text-align: center;
+    font-size: 20px;
+}
+
+/** .quartos-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} **/
+
+.quartos-main .main-imagens{
+    display: flex;
+    justify-content: center;
+}
+
+.quartos-main ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 20px 10%;
+}
+
+.quartos-main li{
+    width: 25%;
+}
+
+.quartos-main img{
+    height: 200px;
+    margin: 0px 5px;
+}
+
+/* 
+
+
+PAGINA DE PETS
+
+
+*/
+
+.introducao-secao{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.animais{
+    width: 95%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.animais-card{
+    height: 300px;
+    display: flex;
+    border: 2px solid rgb(119, 91, 45);
+    margin-bottom: 5px;
+}
+
+.racao-card{
+    height: 400px;
+    display: flex;
+    border: 2px solid rgb(119, 91, 45);
+    margin-bottom: 5px;
+}
+
+.animais-card-img{
+    min-width: 20%;
+    max-width: 20%;
+    height: 100%;
+    border-right: 2px solid rgb(119, 91, 45);
+}
+
+.animais-card-div{
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.animais-card-div h2{
+    text-align: center;
+}
+
+.animais-card-div .paragrafo-especial{
+    font-weight: bold;
+}
+
+.animais-card-div a{
+    width: 30%;
+    padding: 10px;
+    border: 2px solid rgb(119, 91, 45);
+    background: #f9e3be;
+    color: rgb(64, 48, 23);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+}
+
+.animais-card-div a:hover{
+    border: 2px solid rgb(64, 48, 23);
+    background: #f8d193;
+}
+
+.capa-animais{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+#capa-caes{
+    background-image: url(Imagens/Retrato%20de%20grupo%20de%20filhotes%20ador%C3%A1veis%20_%20Foto%20Gr%C3%A1tis.jfif);
+}
+
+#capa-gatos{
+    background-image: url(Imagens/Cinco%20peque%C3%B1os%20gatitos%20grises%20se%20encuentran%20en%20una%20alfombra%20rosa%20_%20Foto%20Gratis.jfif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 100px;
+}
+
+form{
+    display: flex;
+    width: 85%;
+    margin: 50px auto;
+    border: 2px solid #775b2d;
+    padding: 30px;
+    color: #533d18;
+}
+
+.form-container-maior-esquerdo, .form-container-maior-direito{
+    width: 50%;
+    padding-left: 40px;
+}
+
+
+.form-container-menor{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container-menor label{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.form-container-menor input{
+    margin-bottom: 30px;
+}
+
+#termos p{
+    border: 1px solid black;
+    overflow: auto;
+    margin: auto;
+    width: 85%;
+    height: 200px;
+    margin-bottom: 15px;
+}
+
+#termos h3{
+    margin-left: 10px;
+}
+
+#submit{
+    display: flex;
+    justify-content: flex-end;
+}
+
+form button{
+    width: 30%;
+    padding: 10px;
+    border: 2px solid rgb(119, 91, 45);
+    background: #f9e3be;
+    color: rgb(64, 48, 23);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 25px 0px;
+}
+
+form button:hover{
+    border: 2px solid rgb(64, 48, 23);
+    background: #f8d193;
+}
